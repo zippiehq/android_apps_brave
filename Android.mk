@@ -1,0 +1,11 @@
+LOCAL_PATH := $(call my-dir)
+include $(CLEAR_VARS)
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE := Brave
+LOCAL_CERTIFICATE := releasekey
+LOCAL_SRC_FILES := com.brave.browser_1.0.38-1030_minAPI16_armeabi-v7a_nodpi.apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+include $(BUILD_PREBUILT)
+
+
